@@ -42,6 +42,7 @@ namespace Week1Practice
             {
                 Console.WriteLine(i);
             }
+            //started variables cause it was just easier
             newVariable1();
             newVariable2();
             newVariable3();
