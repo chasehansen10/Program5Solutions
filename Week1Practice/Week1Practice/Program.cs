@@ -162,7 +162,7 @@ namespace Week1Practice
         {
             for(int i=0; i<list.Count();i++)
             {
-                Console.WriteLine(list[i] + " has " + list[i].Length + " in it.");
+                Console.WriteLine(list[i] + " has " + list[i].Count(char.IsLetter) + " in it.");
             }
         }
         //prints name to console
