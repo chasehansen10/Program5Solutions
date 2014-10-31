@@ -1,0 +1,6 @@
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Help\Help\bin\Debug\Help.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Help\Help\bin\Debug\Help.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Help\Help\bin\Debug\Help.pdb
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Help\Help\obj\Debug\Help.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Help\Help\obj\Debug\Help.exe
+C:\Users\Technologist SP\Documents\GitHub\Program5Solutions\Help\Help\obj\Debug\Help.pdb

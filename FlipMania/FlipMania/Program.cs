@@ -11,7 +11,10 @@ namespace FlipMania
         static void Main(string[] args)
         {
             FlipCoins(10000);
+            Console.WriteLine();
             FlipForHeads(10000);
+            Console.WriteLine();
+            rollingDie(50000);
             Console.ReadKey();
         }
         //creates new function
@@ -65,5 +68,55 @@ namespace FlipMania
             
 
         }
+        static void rollingDie(int numberOfTimesRolled)
+        {
+            int numberOfSideOneRolled = 0;
+            int numberOfSideTwoRolled = 0;
+            int numberOfSideThreeRolled = 0;
+            int numberOfSideFourRolled = 0;
+            int numberOfSideFiveRolled = 0;
+            int numberOfSideSixRolled = 0;
+            Random rng = new Random();
+            for(int i=0; i<numberOfTimesRolled;i++)
+            {
+                int randomSide = rng.Next(0,6);
+                if(randomSide==0)
+                {
+                    numberOfSideOneRolled++;
+                }
+                else if(randomSide==1)
+                {
+                    numberOfSideTwoRolled++;
+                }
+                else if(randomSide==2)
+                {
+                    numberOfSideThreeRolled++;
+                }
+                else if(randomSide==3)
+                {
+                    numberOfSideFourRolled++;
+                }
+                else if(randomSide==4)
+                {
+                    numberOfSideFiveRolled++;
+                }
+                else
+                {
+                    numberOfSideSixRolled++;
+                }
+                
+
+            }
+            Console.WriteLine("You rolled the die " + numberOfTimesRolled + " times.");
+            Console.WriteLine();
+            Console.WriteLine("You rolled side one " + numberOfSideOneRolled + " times.");
+            Console.WriteLine("You rolled side two " + numberOfSideTwoRolled + " times.");
+            Console.WriteLine("You rolled side three " + numberOfSideThreeRolled + " times.");
+            Console.WriteLine("You rolled side four " + numberOfSideFourRolled + " times.");
+            Console.WriteLine("You rolled side five " + numberOfSideFiveRolled + " times.");
+            Console.WriteLine("You rolled side six " + numberOfSideSixRolled + " times.");
+
+        }
+
     }
 }
