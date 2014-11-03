@@ -75,6 +75,7 @@ namespace GroupPicker
             {
                 Console.WriteLine(nextGroup.Substring(0, nextGroup.Length-2));
             }
+            
 
         }
     }
